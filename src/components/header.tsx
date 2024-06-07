@@ -89,6 +89,7 @@ const Header = () => {
             >
               <MenuItem key='Home' component={Link} to="/" />
               <MenuItem key='Cars' component={Link} to="/cars" />
+              <MenuItem key='Upload' component={Link} to="/upload" />
               {/* {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
@@ -118,6 +119,7 @@ const Header = () => {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             <MenuItem key='Home' component={Link} to="/">Home</MenuItem>
             <MenuItem key='Cars' component={Link} to="/cars">Cars</MenuItem>
+            <MenuItem key='Upload' component={Link} to="/upload">Upload</MenuItem>
             {/* {pages.map((page) => (
               <Button
                 key={page}
